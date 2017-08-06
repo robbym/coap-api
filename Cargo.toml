@@ -1,0 +1,14 @@
+[package]
+name = "coap-server"
+version = "0.1.0"
+authors = ["Robby Madruga <robbymadruga@gmail.com>"]
+
+[dependencies]
+valico = "1"
+coap = "0.5"
+
+[dependencies.rustless]
+git = "https://github.com/rustless/rustless"
+
+[dependencies.iron]
+version = "*"
